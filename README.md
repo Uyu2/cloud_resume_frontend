@@ -3,7 +3,7 @@ This frontend repository goes over the foundation of the Cloud Resume Challenge,
 
 ### HTML and CSS
 
-HTML (Hypertext Markup Language) is a coding language I used to create the structure of my cloud resume challenge. This serves as the backbone of websites, and dictates what will be displayed on a webpage. CSS (Cascading Style Sheets), similarly to HTML, dictates the display of a web page, but handles more of the presentation and style. In the case of my [website](https://www.aelikim.com), CSS handles the styling of the text, size, and alignment of my text, while HTML decides the actual structure. The full html file for my resume can be found within this repository, under the name [index.html](https://github.com/Uyu2/Frontend/blob/8109766f7f4d52137aa295cc66cd6d56ee88240b/index.html).
+HTML (Hypertext Markup Language) is a coding language I used to create the structure of my cloud resume challenge. This serves as the backbone of websites, and dictates what will be displayed on a webpage. CSS (Cascading Style Sheets), similarly to HTML, dictates the display of a web page, but handles more of the presentation and style. In the case of my [website](https://www.aelikim.com), CSS handles the styling of the text, size, and alignment of my text, while HTML decides the actual structure. The full html file for my resume can be found within this repository, under the name index.html.
 
 ### Static S3 Website
 
