@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/visitor-counter.js"></script>
+    <script>
+        visitorCounter();
+    </script>
+    <title>Andrew Kim - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.2;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 12px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 24px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 11px;
+        }
+        h2 {
+            font-size: 14px;
+            border-bottom: 1px solid #000;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        .section {
+            margin-bottom: 10px;
+        }
+        .job, .education, .leadership {
+            margin-bottom: 8px;
+        }
+        .job-title, .degree, .leadership-title, .organization {
+            font-weight: bold;
+        }
+        .job-company, .school {
+            font-style: italic;
+        }
+        .job-date, .education-date, .leadership-date {
+            float: right;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+        li {
+            margin-bottom: 3px;
+        }
+        .education p {
+            margin: 0;
+        }
+        .skills-list {
+            padding-left: 0;
+        }
+        .skills-list li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Visitor #: <span id="visitor-counter"></span>
+        <h1>Andrew Kim</h1>
+    </header>
+
+    <section class="section">
+        <h2>Education</h2>
+        <div class="education">
+            <span class="school">Loyola Marymount University</span>
+            <span class="education-date">Expected May 2026</span>
+            <p><em>Bachelor of Science in Accounting Candidate</em></p>
+            <p><em>Bachelor of Science in Information Systems and Business Analytics Candidate</em></p>
+            <p>Current 3.5 Major GPA</p>
+            <p>Current 3.6 Major GPA</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Work Experience</h2>
+        <div class="job">
+            <span class="job-title">Junior Accountant & HR Specialist</span> - <span class="job-company">Indigenous Media</span>
+            <span class="job-date">April 2024 - Current</span>
+            <ul>
+                <li>Managed financial operations for over 10 LLCs, supporting high-profile clients including Blackrock, Visa, and Cadillac</li>
+                <li>Coordinated employee bi-weekly payroll and E-Verify hiring processes, ensuring compliance with interstate regulations</li>
+                <li>Utilized QuickBooks and Excel VBA to manage accruals such as wages and benefits payable for over 12 full-time employees</li>
+            </ul>
+        </div>
+        <div class="job">
+            <span class="job-title">Accounts Receivables Intern</span> - <span class="job-company">BAE Systems Inc.</span>
+            <span class="job-date">May 2024 - Current</span>
+            <ul>
+                <li>Recorded vendor accounts receivable contracts exceeding $1,000,000, ensuring compliance with governmental standards</li>
+                <li>Reconciled month-end account revenues using T-accounts to ensure accurately reported balances</li>
+                <li>Collaborated across multiple finance and accounting intern teams on projects with the goal of presentation to stakeholders</li>
+            </ul>
+        </div>
+        <div class="job">
+            <span class="job-title">Wealth Advisory Intern</span> - <span class="job-company">Ameriprise Financial Services | Castlewatch Wealth Management</span>
+            <span class="job-date">January 2024 - April 2024</span>
+            <ul>
+                <li>Organized and automated a database of over 300 clients across 6 advisory teams using Microsoft Powershell and Excel</li>
+                <li>Assisted financial advisors with management of high-net-worth individuals to ensure excellent client satisfaction</li>
+                <li>Prepared account summaries and portfolio balance sheets for client meetings using market analysis</li>
+            </ul>
+        </div>
+        <div class="job">
+            <span class="job-title">News Editor</span> - <span class="job-company">Los Angeles Loyolan</span>
+            <span class="job-date">August 2022 - February 2023</span>
+            <ul>
+                <li>Directed editorial efforts of the news section to produce weekly publications of 4-8 articles</li>
+                <li>Led an 8-member multimedia team ensuring coverage of community events, advertising, and revisions of publications</li>
+                <li>Trained new interns on proper communicative and teamworking skills for success in a media-oriented environment</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Leadership Experience</h2>
+        <div class="leadership">
+            <span class="leadership-title">Mentor Coordinator</span> - <span class="organization">Accounting Society</span>
+            <span class="leadership-date">April 2024 - Current</span>
+            <ul>
+                <li>Developed a mentorship program for first and second-year accounting students, managing a $10,000 budget</li>
+                <li>Maintained communications and activities for over 20 mentor-mentee pairs</li>
+            </ul>
+        </div>
+        <div class="leadership">
+            <span class="leadership-title">Financial Development Manager</span> - <span class="organization">Delta Sigma Pi</span>
+            <span class="leadership-date">April 2024 - Current</span>
+            <ul>
+                <li>Worked on the finance committee in assisting the treasurer to plan yearly budgets and event expenses</li>
+                <li>Focused on the creation of an alumni network to increase donations and the organization's available funds</li>
+            </ul>
+        </div>
+        <div class="leadership">
+            <span class="leadership-title">Treasurer</span> - <span class="organization">Han Tao</span>
+            <span class="leadership-date">April 2023 - April 2024</span>
+            <ul>
+                <li>Actively managed a budget of $8,000 and successfully increased year-end balance to $12,000 for the Chinese cultural club</li>
+                <li>Communicated expenses, event budgets, and limitations to other leaders and over 200 organizational members</li>
+            </ul>
+        </div>
+        <div class="leadership">
+            <span class="leadership-title">Events/Fundraising Chair</span> - <span class="organization">Nikkei Student Union</span>
+            <span class="leadership-date">April 2022 - April 2024</span>
+            <ul>
+                <li>Planned and implemented new community initiatives focused on community building and Japanese American culture</li>
+                <li>Generated individual event profits of up to $500 for an organization exceeding 80 members</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Skills & Other Activities</h2>
+        <ul class="skills-list">
+            <li><strong>Technical Skills:</strong> Python, SQL, HTML, CSS, Javascript, Excel VBA, AWS Software, Machine Learning algorithms</li>
+            <li><strong>Certifications:</strong> Microsoft Office Specialist: Excel Associate Certification</li>
+            <li><strong>Competencies:</strong> Computer networking, cloud computing systems, database management, API development</li>
+            <li><strong>Awards:</strong> Finalist & Best Poster award for Business Analytics Competition at Manhattan College 2024</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>References available upon request</p>
+    </footer>
+</body>
+</html>
